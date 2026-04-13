@@ -633,10 +633,10 @@ def extract_quality(filename):
 
     return None
 
-@Client.on_message(filters.command("start_sequence") & filters.private)
+@Client.on_message(filters.command("startsequence") & filters.private)
 @check_ban
 @check_fsub
-async def start_sequence(client, message: Message):
+async def startsequence(client, message: Message):
     user_id = message.from_user.id
     if user_id in active_sequences:
         await message.reply_text("Hᴇʏ ᴅᴜᴅᴇ...!! A sᴇǫᴜᴇɴᴄᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴇ! Usᴇ /end_sequence ᴛᴏ ᴇɴᴅ ɪᴛ.")
