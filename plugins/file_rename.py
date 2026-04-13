@@ -808,7 +808,7 @@ async def auto_rename_files(client, message):
             os.makedirs(os.path.dirname(metadata_path), exist_ok=True)
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-            msg = await message.reply_text("Wᴇᴡ... Iᴀm ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ...!!")
+            msg = await message.reply_text("Dᴏᴡɴʟᴏᴀᴅɪɴɢ... !!")
             await message.reply_chat_action(ChatAction.PLAYING)
 
             try:
