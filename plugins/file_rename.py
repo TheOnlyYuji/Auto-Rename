@@ -852,7 +852,7 @@ async def auto_rename_files(client, message):
                 except Exception as e:
                     logger.error(f"Failed to add metadata: {e}")
 
-            await msg.edit("Wᴇᴡ... Iᴀm Uᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ғɪʟᴇ...!!")
+            await msg.edit("Uᴘʟᴏᴀᴅɪɴɢ Iɴ Pʀᴏᴄᴇss... !!")
             await message.reply_chat_action(ChatAction.PLAYING)
             
             try:
