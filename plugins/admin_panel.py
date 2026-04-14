@@ -593,7 +593,7 @@ async def restart_bot(b, m):
     global is_restarting
     if not is_restarting:
         is_restarting = True
-        await m.reply_text("**Hᴇʏ...!! Oᴡɴᴇʀ/Aᴅᴍɪɴ Jᴜsᴛ ʀᴇʟᴀx ɪᴀᴍ ʀᴇsᴛᴀʀᴛɪɴɢ...!!**")
+        await m.reply_text("**/font Restarting ..!!!**")
         b.stop()
         time.sleep(2)
         os.execl(sys.executable, sys.executable, *sys.argv)
@@ -607,7 +607,7 @@ async def tutorial(bot, message):
         text=Config.FILE_NAME_TXT.format(format_template=format_template),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("• Sᴜᴘᴘᴏʀᴛ •", url="https://t.me/BOTSKINGDOMSGROUP"), InlineKeyboardButton("•⚡Mᴀɪɴ ʜᴜʙ •", url="https://t.me/botskingdoms")]
+            [InlineKeyboardButton("• Sᴜᴘᴘᴏʀᴛ •", url="https://t.me/Anime_XTR"), InlineKeyboardButton("•⚡Mᴀɪɴ ʜᴜʙ •", url="https://t.me/botskingdoms")]
         ])
     )
 # ----------------------------------------
