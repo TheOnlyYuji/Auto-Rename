@@ -14,7 +14,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "36428426")
     API_HASH  = os.environ.get("API_HASH", "30cba30aa38699e77ce264365e327528")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8203364695:AAG1h_pozTxJ_Yv7HNhb_XZ1Qg0vcXczcx4")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8307380751:AAHOJdzLUQfTA_VPjx-x4Dwq4s8PzYsEHzw")
     PORT = os.environ.get("PORT", "8980")
 
     # database config
@@ -22,7 +22,7 @@ class Config(object):
     DB_URL  = os.environ.get("DB_URL", "mongodb+srv://thebochan9_db_user:SBDyUzrO7zBiClzn@cluster0.u89zs0q.mongodb.net/?appName=Cluster0")
  
     # other configs
-    ADMIN_URL = "https://t.me/adityaabhinav"
+    ADMIN_URL = "https://t.me/x_lost_existence_x"
     DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1003456235058")
     DUMP = True
     BOT_UPTIME  = time.time()
