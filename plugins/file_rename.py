@@ -1025,7 +1025,7 @@ async def show_format_cmd(client, message: Message):
 # 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
-@Client.on_message(filters.command("end_sequence") & filters.private)
+@Client.on_message(filters.command("endsequence") & filters.private)
 @check_ban
 @check_fsub
 async def endsequence(client, message: Message):
