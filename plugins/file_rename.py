@@ -1028,7 +1028,7 @@ async def show_format_cmd(client, message: Message):
 @Client.on_message(filters.command("end_sequence") & filters.private)
 @check_ban
 @check_fsub
-async def end_sequence(client, message: Message):
+async def endsequence(client, message: Message):
     user_id = message.from_user.id
     if user_id not in active_sequences:
         await message.reply_text("Wʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ ɴᴏ ᴀᴄᴛɪᴠᴇ sᴇǫᴜᴇɴᴄᴇ ғᴏᴜɴᴅ...!!")
