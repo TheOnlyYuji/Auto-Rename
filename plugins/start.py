@@ -451,7 +451,7 @@ async def show_start_message(client, message: Message):
         ],
         [
             InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ•', url='https://t.me/x_lost_existence_x')
+            InlineKeyboardButton('• Mʏ Sᴇɴsᴇɪ', url='https://t.me/x_lost_existence_x')
         ]
     ])
 
