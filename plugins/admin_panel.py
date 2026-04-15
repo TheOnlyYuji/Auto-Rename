@@ -593,7 +593,7 @@ async def restart_bot(b, m):
     global is_restarting
     if not is_restarting:
         is_restarting = True
-        await m.reply_text("**/font Restarting ..!!!**")
+        await m.reply_text("**Restarting ..!!!**")
         b.stop()
         time.sleep(2)
         os.execl(sys.executable, sys.executable, *sys.argv)
