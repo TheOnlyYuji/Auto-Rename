@@ -439,7 +439,7 @@ async def show_start_message(client, message: Message):
     await asyncio.sleep(0.4)
     await m.delete()
 
-    await message.reply_sticker("CAACAgUAAxkBAAEOcZBoHtzt2LPLp2H6yTblKDPdT9oroQACrRUAAmSm2FeGMk8-cGYtcDYE")
+    await message.reply_sticker("CAACAgUAAxkBAAEQ7T9p3yWF29u_-wqfbTU9Lh9VQqPpngACTB4AAqFy-FbfT6z9rZkmeTsE")
 
     buttons = InlineKeyboardMarkup([
         [
