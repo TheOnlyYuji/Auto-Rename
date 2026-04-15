@@ -240,7 +240,7 @@ async def delete_caption(client, message):
     await rexbots.set_caption(message.from_user.id, caption=None)
     await message.reply_text("**Your Caption Successfully Deleted 🗑️**")
                                        
-@Client.on_message(filters.private & filters.command(['see_caption', 'view_caption']))
+@Client.on_message(filters.private & filters.command(['seecaption', 'viewcaption']))
 @check_ban
 @check_fsub
 async def see_caption(client, message):
