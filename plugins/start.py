@@ -435,7 +435,7 @@ async def show_start_message(client, message: Message):
     await asyncio.sleep(0.5)
     await message.reply_chat_action(ChatAction.CHOOSE_STICKER)
     await asyncio.sleep(3)
-    await m.edit_text("Iᴀᴍ sᴛᴀʀᴛɪɴɢ...!!")
+    await m.edit_text("Kᴇɴ Kᴀɴᴇᴋɪ | Aᴜᴛᴏ Rᴇɴᴀᴍᴇ : Uɴʟᴇᴀsʜᴇᴅ")
     await asyncio.sleep(0.4)
     await m.delete()
 
