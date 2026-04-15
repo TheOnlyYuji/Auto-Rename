@@ -233,11 +233,11 @@ async def add_caption(client, message):
 @Client.on_message(filters.private & filters.command('delcaption'))
 @check_ban
 @check_fsub
-async def delete_caption(client, message):
-    caption = await rexbots.get_caption(message.from_user.id)  
+async def deletecaption(client, message):
+    caption = await rexbots.getcaption(message.from_user.id)  
     if not caption:
        return await message.reply_text("**You Don't Have Any Caption ❌**")
-    await rexbots.set_caption(message.from_user.id, caption=None)
+    await rexbots.setcaption(message.from_user.id, caption=None)
     await message.reply_text("**Your Caption Successfully Deleted 🗑️**")
                                        
 @Client.on_message(filters.private & filters.command(['seecaption', 'viewcaption']))
