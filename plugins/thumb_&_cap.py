@@ -220,7 +220,7 @@ logger = logging.getLogger(__name__)
 # 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
-@Client.on_message(filters.private & filters.command('set_caption'))
+@Client.on_message(filters.private & filters.command('setcaption'))
 @check_ban
 @check_fsub
 async def add_caption(client, message):
@@ -230,7 +230,7 @@ async def add_caption(client, message):
     await rexbots.set_caption(message.from_user.id, caption=caption)
     await message.reply_text("**Your Caption Successfully Added ✅**")
    
-@Client.on_message(filters.private & filters.command('del_caption'))
+@Client.on_message(filters.private & filters.command('delcaption'))
 @check_ban
 @check_fsub
 async def delete_caption(client, message):
